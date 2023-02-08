@@ -11,9 +11,9 @@ namespace COMP003A.LectureActivity4
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("".PadRight(50, '*'));
-            Console.WriteLine("for-loop statement");
-            Console.WriteLine("".PadRight(50, '*'));
+            Console.WriteLine("".PadRight(50, '-'));
+            Console.WriteLine("\tfor-loop statement");
+            Console.WriteLine("".PadRight(50, '-'));
 
             // count 0-9
             int limit = 10; // variable limit for the loop
@@ -31,9 +31,9 @@ namespace COMP003A.LectureActivity4
             }
 
             Console.WriteLine("\n"); // new line
-            Console.WriteLine("".PadRight(50, '*'));
-            Console.WriteLine("foreach statement");
-            Console.WriteLine("".PadRight(50, '*'));
+            Console.WriteLine("".PadRight(50, '-'));
+            Console.WriteLine("\tforeach statement");
+            Console.WriteLine("".PadRight(50, '-'));
 
             // this is a simple array with 10 items in it. you will learn more about arrays on module 7
             string[] simpleArray = new string[] { "eleifend", "donec", "pretium","vulputate", "sapien", "nec", "sagittis", "aliquam", "malesuada", "bibendum" };
@@ -45,9 +45,9 @@ namespace COMP003A.LectureActivity4
             }
 
             Console.WriteLine("\n"); // new line
-            Console.WriteLine("".PadRight(50, '*'));
-            Console.WriteLine("do-while statement");
-            Console.WriteLine("".PadRight(50, '*'));
+            Console.WriteLine("".PadRight(50, '-'));
+            Console.WriteLine("\tdo-while statement");
+            Console.WriteLine("".PadRight(50, '-'));
 
            /* 
             * The do statement executes a statement or a block of statements while a specified
@@ -66,9 +66,9 @@ namespace COMP003A.LectureActivity4
 
 
             Console.WriteLine("\n"); // new line
-            Console.WriteLine("".PadRight(50, '*'));
-            Console.WriteLine("while statement");
-            Console.WriteLine("".PadRight(50, '*'));
+            Console.WriteLine("".PadRight(50, '-'));
+            Console.WriteLine("\twhile statement");
+            Console.WriteLine("".PadRight(50, '-'));
 
            /* 
             * The while statement executes a statement or a block of statements while a specified
@@ -86,9 +86,9 @@ namespace COMP003A.LectureActivity4
             }
 
             Console.WriteLine("\n"); // new line
-            Console.WriteLine("".PadRight(50, '*'));
+            Console.WriteLine("".PadRight(79, '-'));
             Console.WriteLine("example for loop program that counter from 1-20 and checks if it is odd or even");
-            Console.WriteLine("".PadRight(50, '*'));
+            Console.WriteLine("".PadRight(79, '-'));
 
             // 1. loop variable 'i' is set 1 instead of 0
             // 2. loop as long as the loop variable is less than or equal to 20
